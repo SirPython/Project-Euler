@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
         sum_of_squares += i * i;
     }
 
-    int square_of_sum = ((100 * 99) / 2) * ((100 * 99) / 2);
+    int square_of_sum = ((100 * 101) / 2) * ((100 * 101) / 2);
 
-    printf("%d %d\n", sum_of_squares, square_of_sum);
+    printf("%d\n", square_of_sum - sum_of_squares);
 }
