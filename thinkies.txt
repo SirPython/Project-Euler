@@ -1,0 +1,63 @@
+first round: press all 4
+now you know at most 3 are off
+
+3,0 = 4 switches on
+2,1 = 2 switches on
+
+so second round flip 3
+if you don't win, then you know at most 2 switches are off
+
+2,0 = 4 switches on
+0,2 = 4 switches off
+1,1 = 2 switches off
+
+- if between two turns you switch the same number of switches, then you run the risk of undoing what you did last turn, so that's not the meta.
+- the meta is always changing a different number
+- if you switch all 4, you know you undid what you did last turn
+-
+
+0 on (0000)
+    100%: 1 on
+
+    100%: 2 on
+
+    100%: 3 on
+
+#    100%: 4 on
+
+1 on (0001)
+!    75%: 2 on
+$    25%: 0 on
+
+    50%: 3 on
+    50%: 1 on
+
+!    75%: 2 on
+#    25%: 4 on
+
+    100%: 3 on
+
+2 on (0011)
+    50%: 3 on
+    50%: 1 on
+
+!    50%: 2 on
+$    25%: 0 on
+#    25%: 4 on
+
+    50%: 3 on
+    50%: 1 on
+
+!    100%: 2 on
+
+3 on (0111)
+!    75%: 2 on
+#    25%: 4 on
+
+    50%: 3 on
+    50%: 1 on
+
+!    75%: 2 on
+$    25%: 0 on
+
+    100%: 1 on
